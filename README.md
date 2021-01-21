@@ -1,5 +1,11 @@
 # TRABAJO PRÁCTICO INTEGRADOR - CURSO PROGRAMACIÓN WEB FULL STACK - DIGITAL HOUSE ARGENTINA - PROYECTO REACT
 
+_El presente proyecto es una continuación del Proyecto Integrador dentro del curso de Programación web fullstack en DigitalHouse_
+
+_La aplicación consume una API realizada en nodejs_
+
+## Descripción del proyecto
+
 _Nuestro sitio ofrecerá cursos online de formación educativa y funcionará como intermediario. Las personas que quieran publicar sus cursos podrán hacerlo y las demás tendrán acceso a dicho curso a cambio de un costo establecido._
 
 _Estamos abocados a personas que están buscando formarse de manera virtual, ayudando a combatir  el impedimento a aprender de manera presencial. Esta modalidad de cursos nos permite cruzar las fronteras y llegar a cualquier punto donde una persona esté dispuesta a aprender._
@@ -22,7 +28,7 @@ _Esta es el proyecto que consume la API del Proyecto Integrador realizado por el
 
 ## Iniciar aplicación
 
-1. Git Clone: https://github.com/vivascastillomatias/grupo_03_cursitos
+1. Git Clone: https://github.com/vivascastillomatias/reactjs-marketplace-cursitos
 2. Situarse en la raíz del proyecto.
 3. Ejercutar el comando "npm install".
 4. Ejercutar el comando "npm start".
