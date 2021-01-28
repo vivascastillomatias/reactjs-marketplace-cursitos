@@ -8,11 +8,9 @@ function Content() {
   return (
     <React.Fragment>
     <div id="content-wrapper" className="d-flex flex-column">
-        <div id="content">
         <NavBar></NavBar>
         <MainContent></MainContent>
         <Footer></Footer>
-        </div>
     </div>
     </React.Fragment>
   );

@@ -27,14 +27,13 @@ export default class Courses extends Component {
     
     render() {
         return (
-            <div className="">
-                <div className="col-lg-12">
+            <div className="col-md-10">
                 <h1 className="text-white bg-dark text-center p-4 ">CURSOS</h1>
                 
             
                 <div className="card shadow mb-4">
                         <div className="card-header py-3">
-                            <h6 className="m-0 font-weight-bold text-primary">Todos los cursos en base de datos</h6>
+                            <h6 className="m-0 font-weight-bold text-primary">Cursos registrados en base de datos</h6>
                         </div>
 						<div className="card-body">
 							<div className="table-responsive">
@@ -72,7 +71,6 @@ export default class Courses extends Component {
 							</div>
 						</div>
 					</div>
-				</div>
 			<LastCourseInDB/>
             </div>
         )

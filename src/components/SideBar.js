@@ -8,7 +8,7 @@ import Logo from '../assets/images/logo.png'
 function SideBar() {
     return(
         <React.Fragment>
-            <ul className="navbar-nav bg-gradient-dark sidebar sidebar-dark" id="accordionSidebar">
+            <ul className="navbar-nav bg-gradient-dark sidebar col-md-2 sidebar-dark" id="accordionSidebar">
 
             {/* <!-- Sidebar - Brand --> */}
             <a className="sidebar-brand align-items-center justify-content-center" href="/">

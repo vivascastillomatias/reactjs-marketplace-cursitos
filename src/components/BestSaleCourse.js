@@ -1,12 +1,16 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-export default function LastCourseInDB() {
-    let [course, setCourse] = useState([])
+export default function BestSaleCourse() {
+    let [course, setCourse] = useState({})
+    let [sale, setSale] = useState(0)
 
     useEffect( async () =>{
-            const result = await axios('/api/course/last');
-            setCourse(result.data.course);
-    }, [])
+            const result = await axios('/api/sales/best');
+            setCourse(result.data.bestSaleCourse.course);
+            setSale(result.data.bestSaleCourse);
+
+        }, [])
+
     let route = "http://localhost:5000/images/products/"+course.image;
     let link = "http://localhost:5000/courses/"+course.id
     return (
@@ -14,7 +18,7 @@ export default function LastCourseInDB() {
             <div className="col-lg-6 mb-4">
                 <div className="card shadow mb-4">
                     <div className="card-header py-3">
-                        <h6 className="m-0 font-weight-bold text-primary">Ultimo curso registrado en base de datos</h6>
+                        <h6 className="m-0 font-weight-bold text-primary">Curso más vendido</h6>
                     </div>
                     <div className="card-body">
                     <h5 className="row text-center pb-2">{course.name}</h5>
